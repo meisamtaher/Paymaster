@@ -1,4 +1,4 @@
-.env
+/smartContract/.env
 /smartContract/node_modules
 /smartContract/.temp
 /smartContract/cache
