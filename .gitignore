@@ -1,7 +1,0 @@
-/smartContract/.env
-/smartContract/node_modules
-/smartContract/.temp
-/smartContract/cache
-/smartContract/artifacts
-/smartContract/typechain-types
-/smartContract/package-lock.json
