@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background : linear-gradient(30.160deg, #d66438 23.78%, #1b263c 68.7%);
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -46,9 +47,12 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #a0a4f7;
 }
 button:focus,
 button:focus-visible {
@@ -61,7 +65,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #a0a4f7;
   }
   button {
     background-color: #f9f9f9;

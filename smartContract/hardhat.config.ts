@@ -9,6 +9,11 @@ const config: HardhatUserConfig = {
   },
   networks: {
     // for mainnet
+    'goerli':{
+      url: 'https://rpc.goerli.eth.gateway.fm',
+      accounts: [process.env.WALLET_KEY as string],
+      gasPrice: 1000000000,
+    },
     'base-mainnet': {
       url: 'https://mainnet.base.org',
       accounts: [process.env.WALLET_KEY as string],
